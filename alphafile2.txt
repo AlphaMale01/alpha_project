@@ -1,0 +1,6 @@
+ }
+  stage('Deploying to Nexus'){
+    sh 'echo Deploying to Nexus'
+    sh "${MHD}/bin/mvn deploy"
+    sh 'echo Deployment to Nexu successful'
+  }
