@@ -3,4 +3,5 @@
     sh 'echo Deploying to Nexus'
     sh "${MHD}/bin/mvn deploy"
     sh 'echo Deployment to Nexu successful'
+    sh 'echo Deployment to Tomcat successfully'
   }
