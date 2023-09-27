@@ -4,4 +4,5 @@
     sh "${MHD}/bin/mvn deploy"
     sh 'echo Deployment to Nexu successful'
     sh 'echo Deployment to Tomcat successfully'
+    echo "my mum is always wonderful"
   }
